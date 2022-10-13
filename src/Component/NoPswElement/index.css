@@ -1,0 +1,12 @@
+.no-psw-container {
+  text-align: center;
+  border: none;
+}
+
+.no-password {
+  width: 200px;
+}
+.no-psw-text {
+  color: #f8fafc;
+  font-family: 'Roboto';
+}

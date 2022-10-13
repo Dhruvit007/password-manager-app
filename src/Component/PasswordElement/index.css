@@ -1,0 +1,51 @@
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 1px #ffffff;
+  width: 280px;
+  padding: 16px;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 767px) {
+  .list-item {
+    width: 100%;
+  }
+}
+.list-item-name-username-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name-letter-image {
+  background-color: blue;
+  color: #f8fafc;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 36px;
+  margin-right: 10px;
+}
+.website-name-value {
+  color: #f8fafc;
+  padding: 0px;
+  margin: 0px;
+}
+.star-image {
+  width: 100px;
+}
+.delete-image {
+  width: 20px;
+}
+.plain-text-password {
+  margin: 0px;
+  color: #f8fafc;
+}
+.delete-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
